@@ -8,6 +8,6 @@ public class FlashCannon extends SpecialMove{
 		p.setMod(Stat.DEFENSE,-1);
 	}
 	protected java.lang.String describe(){
-		return "FlashCannon";
+		return "uses FlashCannon";
 	}			
 }

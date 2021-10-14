@@ -5,6 +5,6 @@ public class Peck extends PhysicalMove{
 		super(Type.FLYING,35,1.0);
 	}
 	protected java.lang.String describe(){
-		return "peckpeckpeck";
+		return "uses Peck";
 	}
 }

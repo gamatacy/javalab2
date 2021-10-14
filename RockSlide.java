@@ -5,14 +5,13 @@ public class RockSlide extends PhysicalMove{
 		super(Type.ROCK,75, 1);
 	}
 
-	Effect e = new Effect().chance(1).turns(3);
+	Effect e = new Effect().turns(1).chance(0.3);
 
 	public void applyOppEffects(Pokemon p){
-		e.flinch(p);
-		Effect.succes(p);
+		Effect.flinch(p);
 	}
 
 	protected java.lang.String describe(){
-		return "rockrockrock";
+		return "uses RockSlide";
 	}
 }
